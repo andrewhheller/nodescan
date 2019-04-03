@@ -1,4 +1,4 @@
-# nodeScan (in development)
+# nodeScan
 
 Finds all node packages on your system.  A bash script.
 

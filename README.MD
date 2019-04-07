@@ -34,3 +34,5 @@ The final log file will be a filtered list of all node application folders (see 
 - only lists the parent folders up to and excluding 'node_modules'
 - list only unique (no duplicating) directories
 - final output is written to 'log.txt' in the /nodscan directory
+
+NOTE:  if you have some idea of the parent directory to search in and do not need to search the entire system, change the '/' after find to the parent directory

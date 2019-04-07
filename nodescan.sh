@@ -7,10 +7,11 @@ echo "Checking if node is installed on system... "
 
 if [[ $(which node) ]]; then
   echo "Node found.  Executing script..."
-  touch /var/log/nodeScan.txt
-  chmod +w /var/log/nodeScan.txt
-  find / -name node_modules > /var/log/nodeScan.txt
-  awk -F "node_modules" '{print $1}' /var/log/nodeScan.txt | uniq -d > /var/log/nodeScan.txt
+  sudo mkdir /var/log/nodescan
+  sudo chown $USER /var/log/nodescan
+  touch /var/log/nodescan/log.txt
+  touch /var/log/nodescan/error.txt
+  find / -name node_modules 2> /var/log/nodescan/error.txt | awk -F "node_modules" '{print $1}' | uniq -d > /var/log/nodescan/log.txt
   echo "Scan complete.  Please open /var/log/nodeScan.txt to review results."
 else
   echo 'Node NOT found on this system.  Aborting.'

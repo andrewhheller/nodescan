@@ -6,14 +6,14 @@ Finds all node packages on your system.  A bash script.
 
 We cannot secure what we do not know exists.
 
-The purpose of this script is to search and log all folders that contain node modules (i.e. node applications).  Ideal for systems where exact amount and/or location of node applications is unknown.  Search criteria is 'node_modules'.
+The purpose of this script is to search for and log all folders that contain node modules (i.e. node applications).  Ideal for systems where exact amount and/or location of node applications is unknown.  Search criteria is 'node_modules'.
 
 ## Installation
 
 * Open Terminal
 * Navigate to desired working directory
 * Run git clone https://github.com/andrewhheller/nodescan/
-* cd nodscan
+* cd nodescan
 * Execute script with sudo privileges
 
   sudo ./nodescan.sh

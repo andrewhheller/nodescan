@@ -1,3 +1,5 @@
+![nodeScan](https://github.com/andrewhheller/nodescan/blob/master/image.png)
+
 # nodeScan
 
 Finds all node packages on your system.  A bash script.

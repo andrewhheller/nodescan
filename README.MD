@@ -10,10 +10,10 @@ The purpose of this script is to search and log all folders that contain node mo
 
 ## Installation
 
-In terminal, (this is where log file will be saved to).
+Open command Terminal
+Navigate to desired working directory
 Run git clone https://github.com/andrewhheller/nodescan/
 cd nodscan
-
 Execute script with sudo privileges
 
   sudo ./nodescan.sh

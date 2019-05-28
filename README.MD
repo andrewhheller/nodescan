@@ -1,4 +1,4 @@
-![nodeScan](https://github.com/andrewhheller/nodescan/blob/master/image.png)
+![nodeScan](https://github.com/andrewhheller/nodescan/blob/master/node-scan.jpg)
 
 # nodeScan
 
